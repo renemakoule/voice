@@ -93,7 +93,7 @@ export default function AudioPlayer({ src, title }: AudioPlayerProps) {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-        <NeonGradientCard className='w-full max-w-md mx-4 rounded-xl shadow-xl mb-14'>
+        <NeonGradientCard className='w-full max-w-md mx-4 rounded-xl shadow-xl mb-20'>
       <div className="p-4 h-full text-center">
         <h2 className="text-sm text-center font-medium text-gray-600 mb-2">My Audio</h2>
         <audio ref={audioRef} src='/1.mp3' />
